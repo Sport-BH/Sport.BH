@@ -2,7 +2,7 @@
 const products = {
   mens: [
     { name: "Mens Jersey", price: 20, img: "men jersey.jpeg" },
-    { name: "Mens Shorts", price: 15, img: "mens-shorts.jpg" },
+    { name: "Mens Shorts", price: 15, img: "men shorts.jpeg" },
     { name: "Mens Hoodie", price: 30, img: "mens-hoodie.jpg" }
   ],
   womens: [
