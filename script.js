@@ -3,12 +3,12 @@ const products = {
   mens: [
     { name: "Mens Jersey", price: 20, img: "men jersey.jpeg" },
     { name: "Mens Shorts", price: 15, img: "men shorts.jpeg" },
-    { name: "Mens Hoodie", price: 30, img: "mens-hoodie.jpg" }
+    { name: "Mens Hoodie", price: 30, img: "men hoodie.jpeg" }
   ],
   womens: [
-    { name: "Womens Jersey", price: 22, img: "womens-jersey.jpg" },
+    { name: "Womens Jersey", price: 22, img: "women jersey.jpg" },
     { name: "Womens Leggings", price: 18, img: "womens-leggings.jpg" },
-    { name: "Womens Hoodie", price: 28, img: "womens-hoodie.jpg" }
+    { name: "Womens Hoodie", price: 28, img: "women hoodie.jpeg" }
   ],
   kids: [
     { name: "Kids Jersey", price: 15, img: "kids-jersey.jpg" },
