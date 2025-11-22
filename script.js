@@ -11,13 +11,13 @@ const products = {
     { name: "Womens Hoodie", price: 28, img: "women hoodie.jpeg" }
   ],
   kids: [
-    { name: "Kids Jersey", price: 15, img: "kids-jersey.jpg" },
-    { name: "Kids Shorts", price: 12, img: "kids-shorts.jpg" },
-    { name: "Kids Hoodie", price: 20, img: "kids-hoodie.jpg" }
+    { name: "Kids Jersey", price: 15, img: "kids jersey.jpg" },
+    { name: "Kids Shorts", price: 12, img: "kids shorts.jpg" },
+    { name: "Kids Hoodie", price: 20, img: "kids hoodie.jpeg" }
   ],
   accessories: [
     { name: "Cap", price: 10, img: "cap.jpg" },
-    { name: "Bag", price: 25, img: "bag.jpg" },
+    { name: "Bag", price: 25, img: "bag.jpeg" },
     { name: "Sports Watch", price: 50, img: "sports-watch.jpg" }
   ]
 };
