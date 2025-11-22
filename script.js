@@ -7,7 +7,7 @@ const products = {
   ],
   womens: [
     { name: "Womens Jersey", price: 22, img: "women jersey.jpg" },
-    { name: "Womens Leggings", price: 18, img: "womens-leggings.jpg" },
+    { name: "Womens Leggings", price: 18, img: "women leggings.jpg" },
     { name: "Womens Hoodie", price: 28, img: "women hoodie.jpeg" }
   ],
   kids: [
