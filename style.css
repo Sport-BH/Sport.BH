@@ -229,6 +229,7 @@ form button {
 
 form button:hover {
   background: #111;
+  scale: 1.2px;
 }
 
 .about-tab {
