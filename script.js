@@ -68,6 +68,43 @@ card.className = "product-card";
 let price = document.createElement("p");
 price.textContent = "Price: " + item.price + " BD";
 
+  let qtyDiv = document.createElement("div");
+  qtyDiv.className = "quantity";
+  let minusBtn = document.createElement("button");
+  minusBtn.textContent = "-";
+  let qtyInput = document.createElement("input");
+  qtyInput.type = "number";
+  qtyInput.value = 1;
+  qtyInput.min = 1;
+  let plusBtn = document.createElement("button");
+  plusBtn.textContent = "+";
+
+  minusBtn.addEventListener("click", () => {
+    if (qtyInput.value > 1) qtyInput.value--;
+  });
+  plusBtn.addEventListener("click", () => {
+    qtyInput.value++;
+  });
+
+  qtyDiv.appendChild(minusBtn);
+  qtyDiv.appendChild(qtyInput);
+  qtyDiv.appendChild(plusBtn);
+
+  let addBtn = document.createElement("button");
+  addBtn.textContent = "Add to Cart";
+  let confirmBtn = document.createElement("button");
+  confirmBtn.textContent = "Confirm";
+
+  // Append only the essentials
+card.appendChild(img);
+card.appendChild(title);
+card.appendChild(price);
+  card.appendChild(qtyDiv);
+  card.appendChild(addBtn);
+  card.appendChild(confirmBtn);
+
+return card;
+}
 
 document.querySelectorAll(".categories button").forEach(btn => {
   btn.addEventListener("click", () => {
