@@ -159,26 +159,6 @@ section.active {
   color: #111;
 }
 
-.quantity {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-}
-
-.quantity button {
-  background: #111;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.quantity input {
-  width: 40px;
-  text-align: center;
-  margin: 0 5px;
-}
 
 .product-card button {
   margin: 5px;
