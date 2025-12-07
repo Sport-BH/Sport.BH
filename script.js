@@ -21,7 +21,7 @@ const products = {
   ]
 };
 
-// Navigation switching
+
 document.querySelectorAll("nav a").forEach(link => {
   link.addEventListener("click", e => {
     e.preventDefault();
@@ -31,7 +31,6 @@ document.querySelectorAll("nav a").forEach(link => {
   });
 });
 
-// Featured products
 function loadFeatured() {
   const featuredDiv = document.getElementById("featured-products");
   featuredDiv.innerHTML = "";
@@ -61,7 +60,6 @@ function loadFeatured() {
 }
 loadFeatured();
 
-// Product card builder
 function createProductCard(item) {
   let card = document.createElement("div");
   card.className = "product-card";
@@ -77,7 +75,7 @@ function createProductCard(item) {
   price.textContent = "Price: " + item.price + " BD";
 
 
-  // Append everything
+
   card.appendChild(img);
   card.appendChild(title);
   card.appendChild(price);
@@ -85,7 +83,7 @@ function createProductCard(item) {
   return card;
 }
 
-// Category buttons
+
 document.querySelectorAll(".categories button").forEach(btn => {
   btn.addEventListener("click", () => {
     const category = btn.getAttribute("data-category");
